@@ -1,0 +1,58 @@
+body{
+    margin: 0px;
+}
+#fotoslider{
+    display: flex;
+    flex-direction: row;
+}
+.foto{
+    /** HIER KOMEN DE STIJL REGELS **/
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+#viewport {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    border-style: solid;
+    border-width: 1px;
+
+}
+#fotoslider {
+    position: absolute;
+    left: 0;
+    transition-property: left;
+    transition-duration: 500ms;
+    transition-timing-function: cubic-bezier(0,1.02,1,.51);
+    
+    /* ANDERE REGELS GEWOON LATEN STAAN! */
+}
+#class {
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(165, 147, 248);
+    padding: 1%;
+}
+#vorige {
+    color:white;
+    background-color: black;
+    font-size: 20px;
+    border: 1px white;
+    border-style: solid;
+    border-width: 2px;
+}
+#volgende {
+    color:white;
+    background-color: black;
+    font-size: 20px;
+    border-style: solid;
+    border-width: 2px;
+}
