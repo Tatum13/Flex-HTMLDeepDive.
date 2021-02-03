@@ -1,0 +1,28 @@
+body{
+    margin: 0px;
+}
+#fotoslider{
+    display: flex;
+    flex-direction: row;
+}
+.foto{
+    /** HIER KOMEN DE STIJL REGELS **/
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+#viewport {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+}
+#fotoslider {
+    position: absolute;
+    left: 0;
+    /* ANDERE REGELS GEWOON LATEN STAAN! */
+}
